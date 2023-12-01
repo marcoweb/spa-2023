@@ -8,3 +8,9 @@
 // });
 
 // console.log(el);
+
+document.querySelector('#txtExemplo')
+    .addEventListener('keydown', function(e) {
+        document.querySelector('#txtClone')
+            .value = e.target.value;
+})
